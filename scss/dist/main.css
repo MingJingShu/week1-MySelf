@@ -20,76 +20,92 @@ time, mark, audio, video {
   border: 0;
   font-size: 100%;
   font: inherit;
-  vertical-align: baseline; }
+  vertical-align: baseline;
+}
 
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
-  display: block; }
+  display: block;
+}
 
 body {
-  line-height: 1; }
+  line-height: 1;
+}
 
 ol, ul {
-  list-style: none; }
+  list-style: none;
+}
 
 blockquote, q {
-  quotes: none; }
+  quotes: none;
+}
 
 blockquote:before, blockquote:after,
 q:before, q:after {
-  content: '';
-  content: none; }
+  content: "";
+  content: none;
+}
 
 table {
   border-collapse: collapse;
-  border-spacing: 0; }
-
-@font-face {
-  font-family: 'my_font';
-  src: local(Noto sans-serif);
-  unicode-range: U+4E00-9FFF ,U+2E80-2EFF; }
+  border-spacing: 0;
+}
 
 @font-face {
   font-family: "my_font";
+  src: local(Noto sans-serif);
+  unicode-range: U+4E00-9FFF, U+2E80-2EFF;
+}
+@font-face {
+  font-family: "my_font";
   src: local(Roboto);
-  unicode-range: U+0020-007F; }
-
+  unicode-range: U+0020-007F;
+}
 h1,
 h2,
 div,
 p {
-  font-family: "my_font"; }
+  font-family: "my_font";
+}
 
 .container {
   width: 1149px;
   margin: 0 auto;
-  text-align: left; }
+  text-align: left;
+}
 
 .avatar {
-  margin: 45px 0; }
+  margin: 45px 0;
+}
 
 .big-title {
   font-size: 80px;
   border-bottom: 2px black solid;
-  padding-bottom: 20px; }
+  padding-bottom: 20px;
+}
 
 .title {
   line-height: 32px;
   border-bottom: 2px gray solid;
-  padding-bottom: 10px; }
-  .title p, .title span {
-    display: inline-block; }
-  .title p {
-    font-size: 32px;
-    vertical-align: middle; }
-  .title span {
-    padding-left: 16px;
-    font-size: 24px;
-    vertical-align: middle;
-    color: #a00404;
-    text-transform: uppercase;
-    font-weight: bold; }
+  padding-bottom: 10px;
+}
+.title p, .title span {
+  display: inline-block;
+}
+.title p {
+  font-size: 32px;
+  vertical-align: middle;
+}
+.title span {
+  padding-left: 16px;
+  font-size: 24px;
+  vertical-align: middle;
+  color: #a00404;
+  text-transform: uppercase;
+  font-weight: bold;
+}
 
 .my-header {
-  padding: 20px 0; }
+  padding: 20px 0;
+}
