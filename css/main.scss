@@ -15,52 +15,44 @@
   unicode-range: U+0020-007F;
 }
 
-h1,
-h2,
-div,
-p {
+// h1,
+// h2,
+// div,
+// p {
+//   font-family: "my_font";
+// }
+body{
   font-family: "my_font";
 }
 
 .container {
   width: 1200px;
   margin: 0 auto;
-  text-align: left;
 }
 
 .content {
   font-size: 24px;
-  .content-title {
-    line-height: 45px;
-    border-bottom: 1px gray solid;
-    padding-bottom: 8px;
-    margin-bottom: 16px;
-    p,
-    span {
-      display: inline-block;
-    }
-
-    p {
-      font-size: 32px;
-      vertical-align: middle;
-    }
-
-    span {
-      padding-left: 16px;
-      font-size: 24px;
-      vertical-align: middle;
-      color: #a00404;
-      text-transform: uppercase;
-      font-weight: bold;
-    }
+}
+.content-title {
+  line-height: 45px;
+  border-bottom: 1px gray solid;
+  padding-bottom: 8px;
+  margin-bottom: 16px;
+  font-size: 32px;
+  span {
+    padding-left: 16px;
+    font-size: 24px;
+    vertical-align: top;
+    color: #a00404;
+    text-transform: uppercase;
+    font-weight: bold;
   }
-
-  .content-item {
-    margin-bottom: 24px;
-    line-height: 36px;
-    &:last-child {
-      margin-bottom: 0;
-    }
+}
+.content-item {
+  margin-bottom: 24px;
+  line-height: 36px;
+  &:last-child {
+    margin-bottom: 0;
   }
 }
 
@@ -69,6 +61,7 @@ p {
   border-bottom: 2px black solid;
   padding-bottom: 20px;
   padding-top: 47px;
+  line-height:96px;
 }
 .avatar {
   margin: 45px 0;
